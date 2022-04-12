@@ -1,0 +1,107 @@
+body{
+background-image:url('https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-cute-hand-drawn-style-mathematics-education-pink-background-image_337358.jpg');
+display:flex;
+flex-direction:column;
+}
+h1{
+background: #121FCF;
+background: -webkit-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+background: -moz-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family:Andale Mono, monospace;
+font-size:2.2em;}
+form{
+background-image: linear-gradient( 109.6deg,  rgba(255,179,189,1) 1.8%, rgba(254,248,154,1) 50.6%, rgba(161,224,186,1) 100.3% );
+border-radius:10px;
+display:flex;
+flex-direction:column;
+transition: 0.5s;
+align-items:center;
+padding:10px;
+margin:10px;
+margin-left:auto;
+margin-right:auto;
+}
+form input{
+border-radius:7px;
+border:none;
+padding:5px;
+margin-top:10px;
+margin-left:5px;
+}
+input{
+text-align:center;
+}
+.1stin{
+font-family:"Comic Sans MS, Comic Sans, cursive";
+display:flex;
+flex-direction:row;
+}
+.2ndin{
+display:flex;
+flex-direction:row;
+}
+.dropdown-content {
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+label[for='operand1']{
+font-family:'Helvetica';
+font-size:1.1em;}
+label[for='operand2']{
+font-family:'Helvetica';
+font-size:1.1em;}
+label[for='operator']{
+font-family:'Helvetica';
+font-size:1.1em;
+display:flex;
+flex-direction:row;
+margin-top:100px;
+padding:1px;
+margin-top:10px;}
+select{
+display:flex;
+flex-direction:row;
+align-items:center;
+padding:7px;
+margin:10px;
+margin-left:20px;
+border-radius:7px;}
+input[type='submit']{
+font-size:1.1em;
+padding:5px 15px 5px 15px;
+margin:auto;}
+input[type='submit']:hover{
+background-image: linear-gradient( 109.6deg,  rgba(255,179,189,1) 1.8%, rgba(254,248,154,1) 50.6%, rgba(161,224,186,1) 100.3% );
+}
+img{
+color: linear-gradient( 109.6deg,  rgba(255,179,189,1) 1.8%, rgba(254,248,154,1) 50.6%, rgba(161,224,186,1) 100.3% );
+border:none;
+background:none;
+outline:none;
+display:flex;
+flex-direction:column;
+margin-bottom:0px;
+padding:0px;
+}
+button{
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,229,168,1) 0%, rgba(251,174,222,1) 100.7% );
+ackground:url('https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-cute-hand-drawn-style-mathematics-education-pink-background-image_337358.jpg');
+border:none;
+}
+button:hover{
+background-image: linear-gradient( 109.6deg,  rgba(255,179,189,1) 1.8%, rgba(254,248,154,1) 50.6%, rgba(161,224,186,1) 100.3% );}
+.backbtn{
+display:flex;
+flex-direction:row;}
+.result{
+border-radius:7px;
+border:none;
+padding:5px;
+margin-top:10px;
+margin-left:5px;
+}
